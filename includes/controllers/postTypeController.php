@@ -79,7 +79,7 @@ class PostTypeController
      */
     public function iat_meta_box_callback_image_and_text($post)
     {
-        require_once plugin_dir_path(__FILE__) . '../views/frontend/iat_meta_box_callback_image_and_text_views.php';
+        require_once plugin_dir_path(__FILE__) . '../views/admin/iatMetaBoxCallbackImageAndTextViews.php';
     }
 
     /**
