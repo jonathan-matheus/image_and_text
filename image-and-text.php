@@ -1,4 +1,6 @@
 <?php
+
+use ImageAndText\Controllers\PostTypeController;
 /**
  * Plugin Name: Image and Text
  * Description: A simple image and text block.
@@ -9,7 +11,9 @@
  * Text Domain: image-and-text
  */
 
-require_once __DIR__ . '/includes/controllers/postTypeController.php';
+
+require_once __DIR__ . '/vendor/autoload.php';
+
 new PostTypeController();
 
 register_activation_hook(__FILE__, function () {

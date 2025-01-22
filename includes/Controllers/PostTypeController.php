@@ -1,4 +1,7 @@
 <?php
+
+namespace ImageAndText\Controllers;
+
 class PostTypeController
 {
     /**
